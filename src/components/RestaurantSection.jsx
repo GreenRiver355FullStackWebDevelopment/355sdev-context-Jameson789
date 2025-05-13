@@ -1,12 +1,13 @@
 import RestaurantsContainer from "./RestaurantsContainer";
 
+
 function RestaurantSection() {
   return (
     <section>
-      <RestaurantFilter />
+      {/* <RestaurantFilter /> */}
       <RestaurantsContainer />
     </section>
   );
 }
 
-export default RestaurantSection
+export default RestaurantSection;

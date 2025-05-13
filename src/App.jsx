@@ -1,5 +1,5 @@
 import Main from "./components/Main";
-import { RestaurantContext } from "./context/RestrauntContex";
+import { RestaurantContext } from "./context/RestaurantContext";
 import { useEffect, useState } from "react";
 import "./App.css";
 
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <RestaurantContext.Provider value = {{
-      restraunts: restaurantState, updateRestaurants
+      restaurants: restaurantState, updateRestaurants: updateRestaurants
     }}>
     <div className="App">
       <Main />
