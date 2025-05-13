@@ -25,13 +25,13 @@ function App() {
   };
 
   return (
-    <RestaurantContext.provider value = {{
+    <RestaurantContext.Provider value = {{
       restraunts: restaurantState, updateRestaurants
     }}>
     <div className="App">
       <Main />
     </div>
-    </RestaurantContext.provider>
+    </RestaurantContext.Provider>
   );
 }
 export default App;
